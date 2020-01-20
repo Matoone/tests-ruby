@@ -4,5 +4,3 @@ def time_string(nbr)
   time.strftime("%H:%M:%S").strip
   
 end
-
-p time_string(66)

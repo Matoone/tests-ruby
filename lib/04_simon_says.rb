@@ -24,4 +24,4 @@ def titleize(string)
   ar.first.capitalize!
   ar.join(' ')
 end
-p titleize("le pont de la rivière kwaï")
+

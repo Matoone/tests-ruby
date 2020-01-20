@@ -27,4 +27,3 @@ def magic_array(array)
   array.flatten.sort.map{|v| v * 2}.reject{|v| (v % 3 == 0)}.uniq.sort
 end
 
-magic_array([1, [2, 3], 4, 5, 6, 23, 31, [1, 2, 3]])

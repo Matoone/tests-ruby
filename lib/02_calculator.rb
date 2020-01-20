@@ -1,11 +1,9 @@
 def add(a, b)
- c = a + b
- c
+ a + b
 end
 
 def multiply (a, b)
-  c = a * b
-  c
+  a * b
 end
 
 def sum(array)
@@ -15,13 +13,11 @@ def sum(array)
 end
 
 def power(i1, i2)
-  c = i1 ** i2
-  c
+  i1 ** i2
 end
 
 def substract(a, b)
-  c = a - b
-  c
+  a - b
 end
 
 def factorial(n)
